@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Raleway:wght@500&display=swap');
+
+body{
+   margin: 0;
+   padding: 0;
+   background-color: whitesmoke;
+}
+
+.jumbotron {
+   font-size: 25px;
+   padding: 60px;
+   text-align: center;
+   color: #f05454;   
+   background-color: #222831;
+   font-family: 'Coda Caption';
+  
+
+}  
+main {
+   padding: 20px;
+   overflow: auto;
+
+}
+#desc{
+   font-size: 15px;
+   font-family: 'Raleway';
+   text-align: center;
+   color: white;
+}
+.backroundHeader{
+   
+   /* background-image: linear-gradient(rgba(87, 87, 87, 0.8),#864304cc),url(assets/image/headerbg.jpg); */
+}
+nav{
+   background-color: #30475e  ;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+}
+nav a:hover {
+   color:#f05454;
+}
+nav li {
+   display: inline;  
+   list-style-type: none;
+   margin-right: 20px;
+ 
+}
+
+nav a {
+   font-size: 15px;
+   font-weight: 400;
+   text-decoration: none;
+   font-weight: bold;
+   color:white;
+   font-family: 'Coda Caption';
+}
+.card{
+   /* background-color: blue; */
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   background-color: white;
+}
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #30475e;
+}
+footer p {
+   text-align: center; 
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+header{
+   display: inline;
+}
+
+.profile{
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   background-color: white;
+}
+
+.profile img{
+   width: 200px;
+}
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+th,td{
+   font-family: sans-serif;
+}
+
+#biodata{
+ text-align: center;  
+}
+.fotoProfil{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   padding-bottom: 10px;
+}
+
+* {
+   box-sizing: border-box;
+}
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+.flex-row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+ }
+ 
+ /* Create four equal columns that sits next to each other */
+ .flex-column {
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+ }
+ 
+ .flex-column img {
+   margin-top: 8px;
+   vertical-align: middle;
+   width: 100%;
+ }
+ 
+ /* Responsive layout - makes a two column-layout instead of four columns */
+ @media screen and (max-width: 800px) {
+   .flex-column {
+     flex: 50%;
+     max-width: 50%;
+   }
+ }
+ 
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .flex-column {
+     flex: 100%;
+     max-width: 100%;
+   }
+ }
+ h2{
+    font-family:'Coda Caption';
+    font-size: 30px;
+    padding-left: 10px;
+ }
+ p{
+    font-family: 'Raleway';
+    padding-left: 10px;
+    text-align: justify;
+ }
